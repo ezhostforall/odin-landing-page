@@ -92,7 +92,8 @@ button {
 .info-box-row {
     display:flex;
     gap: 20px;
-    justify-content: center;;
+    justify-content: center;
+    flex-wrap: wrap;;
 }
 
 .info-box {
@@ -136,6 +137,7 @@ blockquote {
     align-items: center;
     padding: 20px 40px;
     border-radius: 4px;
+    flex-wrap: wrap;
 }
 
 .cta-button {
